@@ -9,6 +9,7 @@ using Microsoft.Azure.Mobile.Crashes;
 
 namespace FluxApp.Droid
 {
+
     [Activity(Label = "FluxApp.Android", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
